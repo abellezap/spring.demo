@@ -29,6 +29,9 @@ import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
 @Controller
 @RequestMapping("/reporte")
 public class ReporteController {
+	
+	//cambio 3
+	
 	@Autowired
 	private MedicamentoService medicamentoService;
 	@Autowired

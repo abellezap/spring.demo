@@ -19,6 +19,7 @@ import com.project.consorcio.services.TipoMedicamentoService;
 @Controller
 @RequestMapping("/medicamento")
 public class MedicamentoController {
+	//cambio 2
 	
 	@Autowired
 	private MedicamentoService medServicio;

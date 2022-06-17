@@ -19,7 +19,7 @@ import com.project.consorcio.services.TipoMedicamentoService;
 @Controller
 @RequestMapping("/laboratorio")
 public class LaboratorioController {
-	
+	//cambio 1
 	
 	
 	@RequestMapping("/")

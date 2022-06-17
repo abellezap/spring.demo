@@ -23,6 +23,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 @Table(name = "tb_boleta")
 
 public class Boleta implements Serializable{
+	//actualizar 1
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "num_bol")
@@ -50,8 +52,10 @@ public class Boleta implements Serializable{
 	//atributo que no forma parte del mapeo
 	@Transient
 	private Date fecha;
-	
-		
+	@Transient
+	private Date fecha2;
+	@Transient
+	private double sueldo;	
 	
 	
 	public int getNumeroBoleta() {
